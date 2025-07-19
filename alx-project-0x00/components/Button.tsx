@@ -1,3 +1,4 @@
+import React from "react";
 import { ButtonProps } from "@/interfaces";
 
 const sizeClasses = {
@@ -9,9 +10,9 @@ const sizeClasses = {
 const Button: React.FC<ButtonProps> = ({ title, size, shape, styles }) => {
   return (
     <button
-      className={`bg-blue-500 text-white ${sizeClasses[size]} ${shape} ${
-        styles ?? ""
-      }`}
+      className={`bg-blue-500 text-white font-semibold ${
+        sizeClasses[size]
+      } ${shape} ${styles ?? ""}`}
     >
       {title}
     </button>

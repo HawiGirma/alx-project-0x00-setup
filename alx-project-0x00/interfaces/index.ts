@@ -1,7 +1,7 @@
 export interface ButtonProps {
   title: string;
-  size: "small" | "medium" | "large";
-  shape: "rounded-sm" | "rounded-md" | "rounded-full";
+  size: "small" | "medium" | "large" | "rounded";
+  shape: "rounded-sm" | "rounded-md" | "rounded-lg" | "rounded-full";
 }
 
 export interface PillProps {

@@ -8,12 +8,23 @@ const Landing: React.FC = () => {
       <h1 className="text-xl font-extralight mb-6">Landing Page</h1>
 
       <div className="space-y-4">
-        <Button title="Small Rounded-sm" size="small" shape="rounded-sm" />
-        <Button title="Medium Rounded-md" size="medium" shape="rounded-md" />
+        <Button
+          title="Small Rounded-sm"
+          size="small"
+          shape="rounded-sm"
+          styles=""
+        />
+        <Button
+          title="Medium Rounded-md"
+          size="medium"
+          shape="rounded-md"
+          styles=""
+        />
         <Button
           title="Large Rounded-full"
           size="large"
-          shape="rounded-full"
+          shape="rounded-lg"
+          styles=""
         />{" "}
         {/* Must include this */}
       </div>
